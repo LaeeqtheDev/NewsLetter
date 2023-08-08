@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Roboto-Reg';
+    src: url('../src/assets/fonts/Roboto-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../src/assets/fonts/Roboto-Bold.ttf');
+  }
+
+  body {
+    @apply font-Roboto-Reg min-h-screen flex justify-center items-center laptop:bg-bg-color;
+  }
+
+  main {
+    @apply max-w-4xl w-full bg-white rounded-3xl;
+  }
+}
+
+@layer components {
+  .container {
+    @apply flex flex-col-reverse laptop:flex-row laptop:gap-10 laptop:p-4 desktop:p-6;
+  }
+
+  .start {
+    @apply px-4 my-5 mobile:px-6 tablet:px-0 mobile:my-10 laptop:self-center laptop:px-10 desktop:px-12;
+  }
+
+  .list-icons {
+    @apply flex items-center gap-4 pb-2 text-sm text-bg-color mobile:text-base;
+  }
+
+  .icons {
+    @apply self-start;
+  }
+
+  .error {
+    @apply border-red-400 focus:border-red-400 bg-red-100;
+  }
+}

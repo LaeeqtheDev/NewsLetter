@@ -29,12 +29,6 @@ Users should be able to:
 ![](./screenshot/desktop.png)
 ![](./screenshot/mobile.png)
 
-### Links
-
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://tan911.github.io/Newsletter-sign-up-form-with-success-message/)
-
-## My process
 
 ### Built with
 
